@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.status {
+  margin: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid #999;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.square:hover {
+  background-color: #f2f2f2;
+}
