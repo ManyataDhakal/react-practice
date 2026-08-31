@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff5f8;
+}
+
+.App {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.App h1 {
+  color: #d85b83;
+  margin-bottom: 30px;
+}
+
+/* Form */
+
+form {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  gap: 10px;
+}
+
+form input {
+  height: 45px;
+  flex-basis: 80%;
+  padding: 10px;
+  border: 2px solid #f3b6c8;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  background-color: #fffafb;
+}
+
+form input:focus {
+  border-color: #d85b83;
+}
+
+form button {
+  flex-basis: 20%;
+  border: none;
+  border-radius: 8px;
+  background-color: #e889a6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #d85b83;
+}
+
+/* Todo List */
+
+.outerDiv {
+  width: 600px;
+  margin: auto;
+}
+
+.outerDiv ul {
+  margin-top: 30px;
+  padding: 0;
+  list-style: none;
+}
+
+.outerDiv ul li {
+  background-color: white;
+  color: #555;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  text-align: left;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.outerDiv ul li span {
+  position: absolute;
+  right: 15px;
+  color: #d85b83;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.completetodo {
+  text-decoration: line-through;
+  background-color: #fce4ec !important;
+  color: #999 !important;
+}
